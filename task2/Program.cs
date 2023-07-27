@@ -12,7 +12,7 @@ string ValidateString(string coord)
     if (coord != string.Empty)
         return coord;
     else
-        return "такого числа в массиве нет";
+        return " такого числа в массиве нет";
 }
 
 string FindCoordinates(int num, int[,] arr)
